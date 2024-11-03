@@ -1,0 +1,13 @@
+train: /home/omp027/ComputerVison/DLR_Proj/Test_Codes/Annotation/Final_Annot/train/images
+val: /home/omp027/ComputerVison/DLR_Proj/Test_Codes/Annotation/Final_Annot/valid/images
+test: /home/omp027/ComputerVison/DLR_Proj/Test_Codes/Annotation/Final_Annot/test/images
+
+nc: 4
+names: ['Cone', 'Cube', 'Cylinder', 'Sphere']
+
+roboflow:
+  workspace: projects-7ccdg
+  project: shape-detection-bz9xf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projects-7ccdg/shape-detection-bz9xf/dataset/1
